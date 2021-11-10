@@ -1,3 +1,6 @@
+body{
+    background-color:		#383838;
+}
 .form_border{
     display: flex;
     justify-content:center;
@@ -5,14 +8,17 @@
     flex-direction:column;
 }
 h1{
-    color: blue;
+    color: #0B5ED7;
     font-size: 4.5rem;
+    font-family: 'Raleway', sans-serif;
     margin-top: 20px;
 }
 textarea{
     margin-top:24px;
     padding:10px;
-    border:5px solid #4170e8;
+    border:5px solid #0B5ED7;
+    background-color:	#F5F5F5;
+    font-size:bold;
     border-radius: 10px;
     text-align: center;
     justify-content: center;
@@ -24,7 +30,7 @@ textarea{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .input-group{
-    border: 2px solid #4170e8;
+    border: 3px solid #0B5ED7; 
     padding: 0;
     border-radius: 5px;
     width: 70%;
