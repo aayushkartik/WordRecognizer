@@ -28,14 +28,13 @@ const Extraction=()=>{
 }
 const LanguageSelector = (event) => {
     language(event.target.value);
-    console.log(event.target.value);
 }
     return(
         <div className="form-border">
 
         <h1> Image text extractor</h1>
         <div className="inputFields">
-         <div class="input-group container-sm">
+         <div class="input-group container-fluid">
          <input type="file" className="form-control"   onChange={ImageAcceptor}/>
          <select aria-label="Last name" className="form-control" placeholder="Select language" onChange={LanguageSelector} required>
              <option value="">Select language of text in image</option>
@@ -61,7 +60,7 @@ const LanguageSelector = (event) => {
          { completedProgress!=0 && Word!=="" &&(
              <>
              <div className="form-group container">
-            <textarea className="form-control" id="exampleFormControlTextarea1" rows="12" value={Word}></textarea>
+            <textarea className="form-control" id="exampleFormControlTextarea1" rows="11" value={Word}></textarea>
             </div>
              </>
          )}

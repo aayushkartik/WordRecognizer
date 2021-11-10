@@ -8,13 +8,14 @@ body{
     flex-direction:column;
 }
 h1{
-    color: #0B5ED7 ;
-    font-size: 4.5rem;
-    font-family: 'Raleway', sans-serif;
+    color: #ffffff ;
+    font-size: calc(51px + (51 - 35) * ((100vw - 300px) / (1100 - 300)));
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: underline;
     margin-top: 20px;
 }
 .form-group{
-    width: 55%;
+    width: calc(340px + (340 - 37) * ((100vw - 300px) / (1100 - 300)));
     margin-top:24px;
     padding:0;
     border:5px solid #0b4cd7;
@@ -26,10 +27,10 @@ h1{
     font-size:bold;
     text-align: center;
     justify-content: center;
-    font-family: "montserrat", "Helvetica Neue",;
+    font-family: 'Ubuntu', sans-serif;
 }
 .inputFields{
-    margin-top: 4em;
+    margin-top: 3em;
     padding: 10px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -37,7 +38,7 @@ h1{
     border: 3px solid #0B5ED7; 
     padding: 0;
     border-radius: 5px;
-    width: 70%;
+    width: 65%;
 }
 .prog-container{
     margin-top: 4em;
