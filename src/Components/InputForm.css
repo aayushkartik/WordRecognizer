@@ -1,0 +1,35 @@
+.form_border{
+    display: flex;
+    justify-content:center;
+    text-align:center;
+    flex-direction:column;
+}
+h1{
+    color: blue;
+    font-size: 4.5rem;
+    margin-top: 20px;
+}
+textarea{
+    margin-top:24px;
+    padding:10px;
+    border:5px solid #4170e8;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    font-family: "montserrat", "Helvetica Neue",;
+}
+.inputFields{
+    margin-top: 4em;
+    padding: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.input-group{
+    border: 2px solid #4170e8;
+    padding: 0;
+    border-radius: 5px;
+    width: 70%;
+}
+.prog-container{
+    margin-top: 4em;
+    /* width: 50%; */
+}
