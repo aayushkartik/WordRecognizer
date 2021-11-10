@@ -60,7 +60,9 @@ const LanguageSelector = (event) => {
          </div>
          { completedProgress!=0 && Word!=="" &&(
              <>
-             <textarea rows="13" cols="86" value={Word}></textarea><br/>
+             <div className="form-group container">
+            <textarea className="form-control" id="exampleFormControlTextarea1" rows="12" value={Word}></textarea>
+            </div>
              </>
          )}
         </div>
